@@ -70,17 +70,14 @@ output_dir/
 4. **Translocation Calling**: Compare each sample against the average to detect significant translocations
 
 ## Output Format
-
 The final translocation results file (`detected_translocations.txt`) contains columns:
 - `sample`: Sample name
 - `chrom1`: First chromosome in the translocation
 - `chrom2`: Second chromosome in the translocation
 - `point_count`: Number of significant data points supporting the translocation
 
-## License
-
-[Specify your license here if applicable]
-
-## Citation
-
-[Include citation information if this is based on published work]
+## Interpretation Guidelines
+* Higher point_count values indicate stronger evidence for a translocation
+* The pipeline is optimized for detecting both balanced and unbalaced translocations
+* Resolution is limited by the Hi-C bin size (default 2.5Mb)
+* Consider validating high-confidence calls with orthogonal methods (PCR, FISH)
