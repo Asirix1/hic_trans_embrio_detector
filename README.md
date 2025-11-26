@@ -1,4 +1,4 @@
-# Translocation Detection Pipeline
+# Hi-C Translocation Detection Pipeline
 
 This repository contains a Python-based pipeline for detecting chromosomal translocations from Hi-C data. The pipeline identifies potential translocations by analyzing contact matrices and comparing sample data against an average reference.
 
