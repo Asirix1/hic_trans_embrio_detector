@@ -3,6 +3,15 @@
 For correct operation, this pipeline requires Hi-C files that have been filtered to remove blacklist regions. We recommend generating these files using the Juicer package, following the same procedure used in our study. Specifically, we used a modified version of Juicer available at:
 https://github.com/genomech/juicer1.6_compact
 
+# Requirements
+We recommend to reed instructions in Juicer repository.
+The necessary environment can be installed by running:
+```bash
+mamba create -n juicer -c bioconda bwa samtools openjdk=17.0.8
+```
+
+# Running
+
 ## Step 1: Running Juicer on FASTQ Files
 We processed the FASTQ files for each sample using the following command:
 
