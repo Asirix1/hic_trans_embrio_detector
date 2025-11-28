@@ -1,6 +1,6 @@
 # Preparation of Input Hi-C Files
 
-For correct operation, this pipeline requires Hi-C files that have been filtered to remove blacklist regions. We recommend generating these files using the Juicer package, following the same procedure used in our study. Specifically, we used a modified version of Juicer available at:
+For correct operation, this pipeline requires Hi-C files that have been filtered to remove blacklist regions (Ogata, J. D. et al., 2023). We recommend generating these files using the Juicer package, following the same procedure used in our study. Specifically, we used a modified version of Juicer available at:
 https://github.com/genomech/juicer1.6_compact
 
 # Requirements
