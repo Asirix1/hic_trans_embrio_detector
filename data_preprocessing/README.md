@@ -4,10 +4,11 @@ For correct operation, this pipeline requires Hi-C files that have been filtered
 https://github.com/genomech/juicer1.6_compact
 
 # Requirements
-We recommend to reed instructions in Juicer repository.
-The necessary environment can be installed by running:
+We recommend to reed instructions in the official Juicer repository (https://github.com/aidenlab/juicer?ysclid=mijdkz1ume687884273).
+
+The environment with the necessary dependencies for data preprocessing can be installed by running:
 ```bash
-mamba create -n juicer -c bioconda bwa samtools openjdk=17.0.8
+conda create -n juicer -c bioconda bwa samtools openjdk=17.0.8 python=3.10
 ```
 
 # Running
