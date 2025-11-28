@@ -4,7 +4,7 @@ For correct operation, this pipeline requires Hi-C files that have been filtered
 https://github.com/genomech/juicer1.6_compact
 
 # Requirements
-We recommend to reed instructions in the official Juicer repository (https://github.com/aidenlab/juicer?ysclid=mijdkz1ume687884273).
+We recommend to read instructions in the official Juicer repository (https://github.com/aidenlab/juicer?ysclid=mijdkz1ume687884273).
 
 The environment with the necessary dependencies for data preprocessing can be installed by running:
 ```bash
